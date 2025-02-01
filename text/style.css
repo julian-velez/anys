@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: #99f2c8;
+    animation: julian 0.5s ease-in-out infinite;
+    transition: 0.5s all;
+}
+
+ @keyframes julian  {
+    0%{
+        transform: rotate(0deg);
+    }
+    4%{
+        transform: rotate(360deg)scale(1.1);
+    }
+    100%{
+        transform: rotate(90deg)scale(.2);
+        
+    }
+} 
